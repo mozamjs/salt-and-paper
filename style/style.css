@@ -9,12 +9,93 @@
     font-family: inter;
     src: url("../assits/fonts/inter/Inter-VariableFont_opsz\,wght.ttf");
 }
+@font-face {
+    font-family: apercu;
+    src: url("../assits/fonts/apercu/apercu_regular_pro.otf");
+}
+@font-face {
+    font-family: futurak;
+    src: url("../assits/fonts/futurak/futurak.ttf");
+}
 
 body{
     font-family: inter;
 }
 
 
+/* navbar started */
+.main-logo{
+    width: 165px;
+}
 
+nav > a{
+    font-size: 1.5rem;
+
+}
+nav > button{
+    font-size: 1.5rem;
+}
+
+.franchise-btn{
+    border: 1px solid var(--white);
+    background-color: transparent;
+    color: var(--white);
+    padding: 15px 20px;
+    border-radius:30px;
+}
+.order-btn{
+    border:0px;
+    background-color: var(--red);
+    color: var(--white);
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+
+.arrow-item{
+    font-size: 1.8rem;
+    background-color: var(--white);
+    color: var(--red);
+    padding: 3px 5px;
+    border-radius: 20px;
+}
+
+/* navbar ended */
+
+/* carousel started */
+.carousel{
+    width: 100%;
+}
+/* carousel ended */
+
+/* out-brand started */
+.our-brands > .main-head{
+    font-size:4rem;
+    font-family: apercu;
+    font-weight: lighter;
+    margin:50px 0px 0px;
+}
+
+.futurak{
+    font-family: futurak;
+    font-size: 5rem;
+}
+.our-brands> .para{
+    font-size: 1.5rem;
+    color: #ffffffB3;
+    margin: 8px;
+}
+.brand-image{
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 10px;
+}
+.brand-online-btn{
+    background-color: transparent;
+    border: 1px solid var(--white);
+    border-radius: 20px;
+    padding: 10px 45px;
+    color: var(--white);
+}
+/* out-brand ended */
 
 
