@@ -76,6 +76,9 @@ nav > button{
 /* carousel ended */
 
 /* our-brand started */
+.our-brands{
+    padding: 10px 0px 140px;
+}
 .our-brands > .main-head{
     font-size:4rem;
     font-weight: lighter;
@@ -103,20 +106,22 @@ nav > button{
 }
 .brand-online-btn{
     background-color: transparent;
-    border: 1px solid var(--white);
-    border-radius: 20px;
-    padding: 10px 15px;
+    border: 0.5px solid #5b5959;
+    border-radius: 30px;
+    padding: 15px 10px;
     color: var(--white);
     font-size: 1.5rem;
-   width: 200px;
+   width: 150px;
    margin: auto;
+   
 }
 /* our-brand ended */
 
 /* r-franchises starded */
-
+/* box 1.1 started */
 .r-franchises-head{
-    background-color: var(--gray);
+    background-color: #0f0f0f;
+    padding: 70px 0px 50px;
 }
 .main-head1{
     font-size: 5rem;
@@ -128,10 +133,10 @@ nav > button{
     margin: 5px;
 }
 
-.isl{
+.city{
     text-transform: uppercase;
-    letter-spacing: 5px ;
-    font-weight: bold;
+    letter-spacing: 6px ;
+    font-size: 1.5rem;
     margin: 30px 0px 5px;
 }
 
@@ -153,26 +158,39 @@ nav > button{
 }
 .box1-btn
 {
+
+
     background-color: transparent;
-    border: 1px solid var(--white);
-    border-radius: 30px;
-    padding: 15px 15px;
+    border: 1px solid #5b5959 ;
+    border-radius: 40px;
+    padding: 15px;
     color: var(--white);
     font-size: 1.5rem;
-    width: 200px;
+    width: 180px;
     margin: 20px 10px;
+    
 }
 .box1-child{
-    margin: 10px 100px 50px;
+    margin: 30px 100px 50px;
 }
 .box1-img
 {
-   margin: 30px 70px 0px 100px;
+   margin: 30px 200px 0px 100px;
 }
 .r-franchises-box1{
     justify-content: space-between;
+    margin: 0px 0px 30px;
+}
+/* box1.1 finished */
+/* box1.2 started */
+.box1-child2{
+    margin: 0px 0px 0px -70px;
 }
 
+.r-franchises-box1-2{
+    margin:0px 0px 30px;
+}
+/* box1.2 finished */
 
 /* r-franchises ended */
 
