@@ -230,7 +230,10 @@ nav > button{
     font-size: 1.5rem;
     width: 50%;
     margin: 20px 10px; 
+    cursor: pointer;
+    
 }
+
 .arrow-item-greenbtn{
     font-size: 1.8rem;
     background-color: var(--white);
@@ -239,6 +242,11 @@ nav > button{
      padding: 3px 5px;
     
 }
+.box3-btn-green:hover {
+  background-color:transparent;
+  border: 1px solid #28a745;
+}
+
 /* box 3 ended */
 
 /* box 4 started */
