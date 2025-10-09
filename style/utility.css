@@ -12,7 +12,18 @@ body{
     background-color: #000000;
     color: #ffffff;
 }
-
+.font-1{
+    font-size: 1rem;
+}
+.font-2{
+    font-size: 2rem;
+}
+.font-2point4{
+    font-size: 2.4rem;
+}
+.line-spacing{
+    line-height: 30px;
+}
 
 .d-flex{
     display:flex;
@@ -20,6 +31,9 @@ body{
 
 .flex-column{
     flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
 }
 
 .text-center{
