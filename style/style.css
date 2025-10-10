@@ -347,22 +347,47 @@ nav > button{
 }
 /* footer ended */
 
-.home-last-1{
-  font-size: 1.5rem;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  margin-left: 60px;
-  display: inline;
-    
+.home-last{
+    margin: 20px 100px;
+
 }
-.home-last-2{
-  font-size: 1.5rem;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  margin-left: 1000px;
-  display: inline;
+.last-2{
   
+ margin-left: 1000px;
 }
 
 
 /* home page ended */
+
+/* about section started */
+/* about box1 started */
+.about-box-1{
+    padding:50px 120px 20px;
+   
+}
+.about-box2-content{
+    padding: 0px 20px 0px;
+    width: 600px;
+    height: 417px;
+  
+}
+.about-box3-div{
+    height: 322px;
+}
+.about-box-4{
+    width: 660px;
+    height: 421px;
+}
+.about-box6{
+     margin: 70px 0px ;
+     padding: 30px 50px 30px;
+     
+    }
+.about-box6-content{
+    margin: 10px 30px ;
+}
+
+
+/* about box1 ended */
+
+/* about section ended */
