@@ -15,11 +15,17 @@ body{
 .font-1{
     font-size: 1rem;
 }
+.font-1-5{
+    font-size: 1.5rem;
+}
 .font-2{
     font-size: 2rem;
 }
 .font-2point4{
     font-size: 2.4rem;
+}
+.font-bold{
+    font-weight: bolder;
 }
 .line-spacing{
     line-height: 30px;

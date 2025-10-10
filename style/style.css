@@ -7,6 +7,9 @@
 .red{
     color: var(--red);
 }
+.light-gray{
+    color:#b7b7b7 ;
+}
 
 @font-face{
     font-family: inter;
@@ -283,7 +286,83 @@ nav > button{
 
    
 }
-
-
 /* box 4 ended */
+/* footer started */
+.footer{
+    background-color: #0f0f0f;
+    padding: 70px;
+}
+.footer-div-1{
+    width: 25%;
+    padding: 0px 10px 30px;
+ 
+}
+.box4-1-para1{
+    margin-top: 30px;
+}
 
+.footer-div-2{
+    
+    width: 15%;
+    padding: 0px 30px 30px;
+
+    margin: 0px 0px 0px 20px;
+    
+}
+.div-2-ul > li{
+    line-height: 35px;
+     color:#b7b7b7;
+    font-weight:lighter;
+   list-style: none;
+}
+.footer-div-3{
+   
+    width: 20%;
+    padding: 0px 30px 30px;
+   
+    margin: 0px 0px 0px 20px;
+}
+
+.footer-div-4{
+     
+    width: 15%;
+    height: auto;
+    padding: 0px 30px 30px;
+    margin: 0px 0px 0px 20px;
+}
+.div-mini-logo{
+    /* padding: 10px 0px 0px 18px ; */
+    margin: 0px 8px 24px ;
+}
+.box-4-icon{
+    font-size: 1.8rem;
+    background-color: var(--red);
+    color: var(--white);
+    padding: 5px 9px;
+    border-radius: 20px;
+    margin:auto ;
+}
+.box-4-icon-div{
+    margin: 30px 0px 30px;
+}
+/* footer ended */
+
+.home-last-1{
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+  display: inline;
+    
+}
+.home-last-2{
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 1000px;
+  display: inline;
+  
+}
+
+
+/* home page ended */
