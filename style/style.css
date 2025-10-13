@@ -390,3 +390,13 @@ nav > button{
 /* about box1 ended */
 
 /* about section ended */
+
+/* publication started */
+/* box1 started */
+.publication-box1 > div{
+    width:42% ;
+    height: 650px;
+
+}
+
+/* publication ended */
