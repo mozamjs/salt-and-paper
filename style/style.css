@@ -445,7 +445,7 @@ nav>button {
 /* get-a-franchise started */
 
 .franchise-form {
-  width: 90%;
+  width: 90vw;
   max-width: 1000px;
   margin: 60px auto 0px;
   text-align: center;
@@ -454,6 +454,7 @@ nav>button {
 .form-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-content: center;
     gap: 25px 40px;
     margin-bottom: 30px;
 
@@ -479,6 +480,8 @@ input {
     outline: none;
     font-size: 15px;
     color: #333;
+    width:550px ;
+    height:40px;
 }
 /* Responsive layout */
 @media (max-width: 768px) {
@@ -503,8 +506,10 @@ input {
   background-color: #ffb300; /* slightly darker yellow */
 }
 
-.btn-align{
 
-    margin-left:180px;
+.btn-align{
+ 
+   width: 100%;
+   justify-content: center;
 }
 /* get-a-franchise ended */
